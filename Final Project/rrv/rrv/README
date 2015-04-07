@@ -1,0 +1,37 @@
+    RRV (Radiosity Renderer and Visualizer)
+
+================================================================================
+
+    Project web page:
+        http://dudka.cz/rrv/
+
+    Authors:
+        David Barina    (DaBler@gmail.com)
+        Kamil Dudka     (kamil@dudka.cz)
+        Jakub Filak
+        Lukas Hefka     (lukas.hefka@gmail.com)
+
+    License:
+        GPLv3, available at http://www.gnu.org/licenses/gpl-3.0.txt
+
+    Announced:
+        2007-12-04
+
+================================================================================
+
+    Directory structure:
+        ./doc/          project documentation (in Czech language)
+        ./doc/api/      API documentation
+        ./scene/        input scenes (examples)
+        ./src           source codes
+
+    Install instructions:
+        You can make API documentation by command 'make' in directory
+        ./doc/api (requires Doxygen).
+
+        For make and install radiosity renderer and visualizer you need to
+        run following sequence of commands in directory ./src (requires CMake):
+
+        cmake .         (creates Makefile)
+        make            (builds programs)
+        make install    (requires root privileges)
